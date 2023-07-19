@@ -1,0 +1,247 @@
+/*
+    FONTS
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+}
+.conteiner{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .top{
+
+    width: 100%;
+    color: #ffffff;
+    background-color: #DF1C2F;
+    height: 66px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    top: 0px;
+    
+    z-index: 1;
+}
+header .top h2{
+    text-transform: uppercase;
+
+    
+}
+header nav{
+    width: 100%;
+    max-width: 1400px;
+    background-color: #000000;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* position: relative; */
+    margin-top: 60px;
+
+    z-index: 0;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+
+    gap: 34px;
+
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    }
+.conteiner nav .logo{
+    margin-left: 32px;
+}
+.conteiner nav .actions{
+    display: inline-flex;
+    padding: 20px 0px;
+    align-items: flex-start;
+    gap: 24px;
+}
+.conteiner .products_page .products_top{
+    margin-top: 80px;
+}
+.conteiner .products_page .products_top h2{
+    color: #181A1D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38.5px; /* 137.5% */
+}
+.conteiner .products_page .products_top p{
+    color: #222529;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.4px;
+}
+.conteiner .products_page .products_top p .price{
+    color: #D00C2A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.toggle{
+    /*margin-top: 50px;*/
+    align-items: center;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 24px;
+}
+.toggle > p{
+    color: #181A1D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px; /* 192.857% */
+}
+/*
+.cards_wrapper{
+
+}
+*/
+.card{
+    display: inline-flex;
+    padding: 19px 82px 11px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -0.687px;
+
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 10px 25px 0px rgba(24, 26, 29, 0.10);
+}
+.card h2{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.32px; /* 138% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+.card p{
+    color: #65666A;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 225% */
+    letter-spacing: 0.3px;
+}
+.conteiner .products{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.conteiner > .products > section{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 350px;
+}
+.conteiner .products section ul{
+    list-style: none;
+}
+
+
+.conteiner .products section .title_bar{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.25px; /* 148.077% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+
+    background-color: #65666A;
+
+    display: flex;
+    padding: 10px 126.969px 11.25px 128.031px;
+    align-items: flex-start;
+}
+/*
+.conteiner .products section .title_bar h2{
+    
+}
+
+.conteiner .products .btn_shop_now a{
+
+}
+
+.conteiner .products .btn_shop_now{
+   
+}
+*/
+.rent{
+    display: flex;
+    justify-content: space-between;
+
+    height: 200px;
+}
+.rent .bar{
+    width: 100%;
+    max-width: 400px;
+
+    justify-content: center;
+
+    background-color: #ffffff;
+}
+.rent img{
+    position: absolute;
+    top: 1163px;
+    left: 90px;
+}
+.delivey{
+    padding: 0 120px;
+}
+.delivey h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.delivey .line{
+    display: flex;
+    justify-content: center;
+}
+.block img{
+    align-items: center;
+}
+
