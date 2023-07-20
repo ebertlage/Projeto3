@@ -362,6 +362,8 @@ header nav ul li a{
 }
 .delivey{
     padding: 0 120px;
+
+    
 }
 .delivey h2{
     text-align: center;
@@ -376,9 +378,49 @@ header nav ul li a{
     flex-direction: column;
 
     align-items: center;
+
+    max-width: 280px;
 }
 .block img{
     width: 60px;
+    margin-bottom: 9px;
+}
+.block h2{
+    margin-top: 13px;
+    margin-bottom: 20px;
+
+    color: #222529;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.25px; /* 148.077% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+.block p{
+    color: #65666A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19.5px; /* 150% */
+    letter-spacing: 0.325px;
+}
+.block a{
+    color: #181A1D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19.5px; /* 150% */
+    letter-spacing: 0.325px;
+    text-decoration-line: underline;
+
+    margin-top: 20px;
 }
 
 .separador{
@@ -403,11 +445,21 @@ header nav ul li a{
     max-width: 940px;
     justify-content: center;
 
-    margin: 0 auto;
+    margin: 80px auto;
+
+    color: #181A1D;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38.5px; /* 137.5% */
 
 }
+.faq h2{
+    border-bottom: 2px solid #181A1D;
+}
 .faq_line{
-    height: 60px;
+    /*height: 60px;
     width: 100%;
 
     display: flex;
@@ -416,9 +468,30 @@ header nav ul li a{
 
     align-items: center;
 
-    background-color: rgb(13, 76, 158);
+    background-color: #ffffff;
 
-    padding: 0 10px;
+    padding: 0 10px;*/
+
+    display: flex;
+    width: 100%;
+    max-width: 940px;
+    height: 59px;
+    padding: 20px 10px;
+    /*justify-content: center;*/
+    align-items: flex-start;
+    gap: 349px;
+    flex-shrink: 0;
+
+    justify-content: space-between;
+
+    color: #181A1D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-bottom: 0.5px solid #dcdcdd;
 }
 .faq_line img{
     width: 12px;
@@ -432,7 +505,7 @@ header nav ul li a{
 
 .disclaimers p:first-of-type{
     display: flex;
-    width: 100%
+    width: 100%;
     max-width: 1340px;
     height: 176px;
     flex-direction: column;
@@ -472,12 +545,27 @@ header nav ul li a{
     letter-spacing: 0.3px;
     text-decoration-line: underline;
 }
+.site_map{
 
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
 .pages{
     display: flex;
     flex-direction: row;
+
+    margin: 50px 50px;
 }
 
+
+
+
+
+
+.subscribe{
+    margin-top: 50px;
+}
 footer ul{
     display: flex;
     gap: 30px;
