@@ -355,11 +355,13 @@ header nav ul li a{
     border: 2px solid #181A1D;
 
 }
+/*
 .rent img{
-    /*position: absolute;
+    position: absolute;
     top: 1163px;
-    left: 90px;*/
+    left: 90px;
 }
+*/
 .delivey{
     padding: 0 120px;
 
@@ -600,6 +602,11 @@ footer ul li a{
     letter-spacing: 0.4px;
 }
 
+.footer-top{
+    display: flex;
+    flex-direction: row;
+}
+
 .subscribe h2{
     color: #181A1D;
     font-family: Inter;
@@ -611,6 +618,47 @@ footer ul li a{
     text-transform: uppercase;
 }
 
+.subscribe P{
+    color: #181A1D;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.3px;
+
+    margin-top: 20px;
+}
+
+.subscribe p span{
+    color: #181A1D;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-decoration-line: underline;
+}
+.contacts{
+    color: #181A1D;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 145.455% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+
+    margin-top: 30px;
+}
+.contacts div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 14px;
+}
+
+
 .email input:first-of-type{
     border-radius: 2px;
     border: 1px solid #888B93;
@@ -618,6 +666,8 @@ footer ul li a{
 
     width: 272.641px;
     height: 50px;
+
+    margin-right: 10px;
 }
 
 .email input:last-of-type{
@@ -638,6 +688,8 @@ footer ul li a{
     line-height: normal;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+
+    height: 50px;
 }
 
 footer ul li a:last-of-type{
