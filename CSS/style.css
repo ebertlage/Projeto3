@@ -102,7 +102,7 @@ header nav ul li a{
     line-height: 24px; /* 150% */
     letter-spacing: 0.4px;
 }
-.conteiner .products_page .products_top p .price{
+.conteiner .products_page .products_top p .price_off{
     color: #D00C2A;
     font-family: Roboto;
     font-size: 16px;
@@ -110,6 +110,45 @@ header nav ul li a{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+}
+.price_promo{
+    color: #65666A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px; /* 168.75% */
+    text-decoration-line: line-through;
+}
+.text_promo{
+    color: #D00C2A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19.5px; /* 150% */
+    letter-spacing: 0.325px;
+}
+#price_normal{
+    color: #DF1C2F;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 33px; /* 137.5% */
+}
+.price_first{
+    color: #181A1D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.6px;
 }
 .toggle{
     /*margin-top: 50px;*/
@@ -168,7 +207,9 @@ header nav ul li a{
 .conteiner .products{
     display: flex;
     justify-content: center;
+    
     gap: 30px;
+
 }
 .conteiner > .products > section{
     display: flex;
@@ -183,6 +224,15 @@ header nav ul li a{
     list-style: none;
 }
 
+.tag_desconto{
+    width: 80px;
+    height: 18px;
+    
+    position: relative;
+    top: -220px;
+    right: -10px;
+
+}
 
 .conteiner .products section .title_bar{
     background-color: #65666A;
@@ -355,13 +405,13 @@ header nav ul li a{
     border: 2px solid #181A1D;
 
 }
-/*
+
 .rent img{
     position: absolute;
-    top: 1163px;
-    left: 90px;
+    top: 1630px;
+    left: 120px;
 }
-*/
+
 .delivey{
     padding: 0 120px;
 
@@ -374,6 +424,17 @@ header nav ul li a{
 .delivey .line{
     display: flex;
     justify-content: center;
+}
+.delivey a{
+    color: #181A1D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19.5px; /* 150% */
+    letter-spacing: 0.325px;
+    text-decoration-line: underline;
 }
 .block{
     display: flex;
@@ -502,6 +563,7 @@ header nav ul li a{
 
 .disclaimers{
     /*margin: 42px 50px 0px 50;*/
+    margin: 0 50px;
     gap: 54px;
 }
 
@@ -587,9 +649,42 @@ header nav ul li a{
     margin-top: 50px;
 }
 
+.apps{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+.apps h2{
+    color: #181A1D;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17.29px; /* 144.083% */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    margin-bottom: 19px;
+}
+.apps_img{
+    display: flex;
+    gap: 20px;
+}
+
+footer{
+    margin-top: 48px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
 footer ul{
     display: flex;
     gap: 30px;
+
+    
+}
+footer ul li{
+    margin: 25px 0;
 }
 
 footer ul li a{
@@ -605,6 +700,8 @@ footer ul li a{
 .footer-top{
     display: flex;
     flex-direction: row;
+
+    margin: 20px 0;
 }
 
 .subscribe h2{
@@ -616,6 +713,8 @@ footer ul li a{
     line-height: 19.25px; /* 160.417% */
     letter-spacing: 1.4px;
     text-transform: uppercase;
+
+    margin-bottom: 16px;
 }
 
 .subscribe P{
@@ -641,21 +740,37 @@ footer ul li a{
     text-decoration-line: underline;
 }
 .contacts{
+    
     color: #181A1D;
     font-family: Inter;
     font-size: 11px;
     font-style: normal;
     font-weight: 700;
-    line-height: 16px; /* 145.455% */
+    line-height: 16px; 
     letter-spacing: 1.4px;
     text-transform: uppercase;
 
     margin-top: 30px;
+
+    display: flex;
+    padding: 0px 176px 14px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
 }
 .contacts div{
-    display: flex;
+    /*display: flex;
     flex-direction: row;
     margin-bottom: 14px;
+
+    justify-content: left;*/
+
+    display: flex;
+    flex-direction: inline;
+    align-items: flex-start;
+    gap: 25px;
+
+    
 }
 
 
